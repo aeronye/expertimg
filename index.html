@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Solution</title>
+
+    <!-- favicon -->
+     <link rel="shortcut icon" type="image/png" href="img/.png">
+
+
+    <!-- Remote style sheet -->
+
+        <!-- Css Styles -->
+    <!-- <link rel="stylesheet" href="css/plugin/bootstrap.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/plugin/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin/style.css" type="text/css">
+
+    <!-- development stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        body{
+            padding-top: 40rem;
+        }
+        @media(max-width:600px){
+         body{
+        padding-top: 50rem;
+          }
+        }
+        @media(min-width:1000px){
+    body{
+        padding-top: 45rem;
+    }
+    }
+    @media(max-width:960px){
+        body{
+            padding-top: 50rem;
+        }
+    }
+    </style>
+</head>
+<body>
+
+        <!-- Humberger Begin -->
+        <div class="humberger__menu__overlay"></div>
+        <div class="humberger__menu__wrapper">
+            <div class="humberger__menu__logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+        
+            <div class="humberger__menu__widget">
+              
+                <div class="header__top__right__auth">
+                    <a href="#" class="btn btn-large mybutton2 text-white shadow" style="margin-top: 30px;">Login</a>
+                </div>
+            </div>
+            <nav class="humberger__menu__nav mobile-menu">
+                <ul>
+                    <li class="active mylist"><a href="index.html" class="mylink1">Home</a></li>
+                    <li class="mylist"><a href="gallery.html"  class="mylink1">Gallery</a></li>
+                    <li class="mylist"><a href="#" class="mylink1">Services</a>
+                        <ul class="header__menu__dropdown">
+                            <li class="mylist"><a href="image_edit.html" class="mylink1">Image edit</a></li>
+                            <li class="mylist"><a href="graphics.html" class="mylink1">Graphics design</a></li>
+                            <li class="mylist"><a href="quote.html" class="mylink1">Get Quote</a></li>
+                            <li class="mylist"><a href="shop.html" class="mylink1">Shop</a></li>
+                            <li class="mylist"><a href="#" class="mylink1">Shoping Cart</a></li>
+                            <li class="mylist"><a href="#" class="mylink1">Check Out</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="mylist"><a href="blog.html" class="mylink1">Blog</a></li>
+                    <li class="mylist"><a href="contact.html" class="mylink1">Contact</a></li>
+                    <li class="mylist"><a href="about.html" class="mylink1">About us</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-wrap"></div>
+            <div class="header__top__right__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="div">
+                <h1 class="heading1" style="font-size: 20px;">Get in Touch</h1>
+                <p class="p1" style="color: green; font-size: 15px;">
+                    ADDRESS: HOUSE 10/C, ROAD NO- 2, SHYAMOLI, MOHAMMADPUR
+                    DHAKA 1207, BANGLADESH
+                </p> 
+            </div>
+            <div class="humberger__menu__contact">
+                    <li class="mylist"><i class="fa fa-envelope"></i>info@imagesolutionexpert.com</li>
+                    <li class="mylist"><i class="fa fa-phone"> (+88) 01556359897</i></li>
+            </div>
+        </div>
+        <!-- Humberger End -->
+    
+        <!-- Header Section Begin -->
+        <header class="header">
+ 
+            <div class="container">
+                <div class="row myheader_row">
+                    <div class="col-lg-3 hlogo">
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="#">Services</a>
+                                    <ul class="header__menu__dropdown">
+                                        <li class="mylist"><a href="image_edit.html" class="mylink1">Image edit</a></li>
+                                        <li class="mylist"><a href="graphics.html" class="mylink1">Graphics design</a></li>
+                                        <li class="mylist"><a href="quote.html" class="mylink1">Get Quote</a></li>
+                                        <li class="mylist"><a href="shop.html" class="mylink1">Shop</a></li>
+                                        <li class="mylist"><a href="#" class="mylink1">Shoping Cart</a></li>
+                                        <li class="mylist"><a href="#" class="mylink1">Check Out</a></li>
+                                        <li class="mylist"><a href="about.html" class="mylink1">About Us</a></li>
+                                        <li class="mylist"><a href="contact.html" class="mylink1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-1 header__cart">
+                        <!-- <div class="header__cart">
+                            <li class="mylist">
+                                <i class="fa fa-opencart" style="font-size: 30px;"></i>
+                                 <span class="badge text-white rounded-pill align-text-bottom" style="background:#ee3f6a;
+                                 position: relative; top:-10px;">0</span>
+                             </li>
+                        </div> -->
+                         <div class="humberger__menu__cart">
+                            <ul>
+                                <li class="mylist"><a href="#">
+                                    <i class="fa fa-shopping-bag shopbag" style="font-size: 25px;">
+                                    </i> <span>3</span></a></li>
+                                <span class="badge text-white rounded-pill align-text-bottom" style="background:orange;">$50.00</span>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="header_login">
+                            <a href="#" class="btn btn-large mybutton2 shadow" style="margin-top: 30px;">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="humberger__open">
+                    <i class="fa fa-bars" style="color: #2BBCED;"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+        
+    <!--Main Section  -->
+    <main>
+        <!-- intro section -->
+      
+            <!-- <div class="container-fluid"> -->
+                <div class="container-fluid">
+                    <div class="row text-center">
+                <section class=" intr0-s showcase">
+                  
+                        <video src="homev/main1.mp4" muted loop autoplay></video>
+                        <div class="overlay"></div>
+                        <div class="text1">
+                            <h2 class=" text-center" style="color: orange;">We know the impact of<br>
+                                <span class="txt-type" data-wait="3000" data-words='["Unique and powerful image", "Innovative graphics design", "& Lot more"]'></span>
+                            </h2>
+                            <p class=" lead text-center">High volume image editing service within budget,
+                                on time and in accordance with your high-quality standards.</p>
+                            <a href="login.html" class="btn btn-large rounded-pill shadow mybutton1 m-3" style="background:orange; font-size: 20px; color: white;">Free Trial
+                                <i class="fa fa-paper-plane"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-large rounded-pill shadow mybutton1 m-3" style="background:#2BBCED; font-size: 20px; color: white;">Quick Contact
+                            </a>
+                            <!-- <a href="#">Explore</a> -->
+                        </div>
+                
+                </section>
+            </div>
+        </div>
+            <!-- </div> -->
+ 
+            
+            <!-- Categories Section Begin -->
+            <section class="categories my-margin-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="categories__slider owl-carousel">
+                            <div class="col-lg-3 my-col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/logo8.jpg">
+                                    <h5><a href="#" class="btn mybutton1">Buy</a></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 my-col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/logo7.jpg">
+                                    <h5><a href="#" class="btn mybutton1">Gallery</a></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 my-col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/logo6.jpg">
+                                    <h5><a href="#" class="btn mybutton1">Shop</a></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 my-col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/web2.jpg">
+                                    <h5><a href="#" class="btn mybutton1">Buy</a></h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 my-col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/logo5.jpg">
+                                    <h5><a href="#" class="btn mybutton1">Shop</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Categories Section End -->
+
+            <!-- Home about us section -->
+            <div class="container-fluid">
+            <!-- Home about us section -->
+            
+                <!-- about -->
+                 <div class="row p-3">
+                      <div class="col-sm-7 mt-3 my-margin-top">
+                          <h1 class="heading1" style="font-size: 45px; margin-top:70px;">Image Edit Service</h1>
+                          <p class="p1">Photo retouching is used to make a picture More
+                              beautiful and sharp, this technique is normally used in e-commerce, 
+                              ad agencies to make a model picture more attractive
+                          </p>
+                          <a href="about.html" class="btn shadow mybutton1 mb-3 " 
+                          style="background:orange; color: white;">Read More</a>
+                      </div>
+                      <div class="col-sm-5">
+                          <img src="img/habout1.png" alt="">
+                      </div>
+                  </div>
+                  <div class="row p-3">
+                      <div class="col-sm-7">
+                          <h1 class="heading1" style="font-size: 45px;">Graphics Design Service</h1>
+                          <p class="p1 mt-3">Get Unique And Creative Logo For Your Brand And Shine Professionally!. 
+                              Having a unique logo make you stand out amongs competitors, make brand identity
+                              and send your business message and idea to customers. If you want to look professional and …
+                          </p>
+                          <a href="about.html" class="btn shadow mybutton1 mt-3" 
+                          style="background:orange; color: white;">Read More</a>
+                      </div>
+                      <div class="col-sm-5 mt-3">
+                          <img src="img/habout1b.png" alt="">
+                      </div>
+                  </div>
+          
+       
+  
+               <!-- services include -->
+               <div class="row mt-3">
+                <h1 class="heading1 text-center" style="font-size: 40px;">Why chose us</h1>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                    <div class="home-serve ">
+                        <span><img src="img/os1.png" alt=""></span>
+                        <h1 class="heading1 home-serve-h">Instant correction</h1>
+                        <p class="home-serv-p">
+                            Our highly trained teams edit thousands of images per day
+                            which can be delivered within 24 hours or less
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                    <div class="home-serve">
+                        <span><img src="img/os2.png" alt=""></span>
+                        <h1 class="heading1 home-serve-h">Next day services</h1>
+                        <p class="home-serv-p">Our highly trained teams edit
+                             thousands of images per day
+                            which can be delivered within 24 hours or less
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                    <div class="home-serve">
+                        <span><img src="img/os3.png" alt=""></span>
+                        <h1 class="heading1 home-serve-h">High Standard</h1>
+                        <p class="home-serv-p">
+                            Our highly trained teams edit thousands of images per day
+                            which can be delivered within 24 hours or less
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                    <div class="home-serve">
+                        <span><img src="img/os4.png" alt=""></span>
+                        <h1 class="heading1 home-serve-h">Guaranteed NDA</h1>
+                        <p class="home-serv-p">
+                            Our highly trained teams edit thousands of images per day
+                            which can be delivered within 24 hours or less
+                        </p>
+                    </div>
+                </div>
+               </div> 
+
+            </div>
+
+            <!-- Featured Section Begin -->
+            <section class="featured spad">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title">
+                                <h2 class="heading1" style="color: #2BBCED;">Gallery</h2>
+                            </div>
+                            <div class="featured__controls">
+                                <ul>
+                                    <li class="active" data-filter="*">All</li>
+                                    <li data-filter=".oranges">Clipping path</li>
+                                    <li data-filter=".fresh-meat">Background erase</li>
+                                    <li data-filter=".vegetables">Color correction</li>
+                                    <li data-filter=".fastfood">Photo retouching</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row featured__filter">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo9.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$5.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo2.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$30.0</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo3.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$300.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo4.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$70.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo9.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$80.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$40.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo7.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$30.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/logo8.jpg">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Check</a></h6>
+                                    <h5>$60.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Featured Section End -->
+
+        <!-- Section2 -->
+        <!-- <section class="section2">
+            <div class="container-fluid">
+                <div class="row">
+                    <h1 class="heading1b p-3 text-center">The future of Business</h1>
+                    <div class="col-sm-7">
+                        <div class="dfloat">
+                            <div class="float">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <div class="container-fluid">
+                                <div class="row artbox shadow">
+                                    <div class="col-12">
+                                        <div class="row">
+                                                <h1 class="artheading"><i class="fa fa-paper-plane artp text-warning"></i> Creativity</h1>
+                                                <p class="p-3 lead">this is just some bunch of rubish please don't mind it</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                                <h1 class="artheading"><i class="fa fa-photo artp text-primary"></i> Quality</h1>
+                                                <p class="p-3 lead">this is just some bunch of rubish please don't mind it</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                                <h1 class="artheading"><i class="fa fa-paint-brush artp text-success"></i> Unique</h1>
+                                                <p class="p-3 lead">this is just some bunch of rubish please don't mind it</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+            <!-- Free quote section -->
+            <section>
+                <form action=""></form>
+                <div class="container-fluid">
+                    <div class="row mt-3">
+                        <h1 class="heading1 text-center" style="font-size: 40px;">Get Your free Quote Now</h1>
+                        <p class="lead text-center">
+                            Distintively utilize competitive leadership rather than future-proof e-bussiness. <br>
+                            Competently engineer unique e-tailers for tactical users
+                        </p>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                            <div class="home-serve ">
+                               
+                                <h1 class="heading1 home-serve-h">Quantity</h1>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Number of images">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                            <div class="home-serve">
+                               
+                                <h1 class="heading1 home-serve-h">Upload</h1>
+                                <div class="form-group">
+                                    <input type="file" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Upload example image">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                            <div class="home-serve">
+                                
+                                <h1 class="heading1 home-serve-h">Chose a Service</h1>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Choose a service">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                            <div class="home-serve">
+                                
+                                <h1 class="heading1 home-serve-h">Email</h1>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Your Email">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <input type="submit" value="Submit"  class="btn shadow rounded-pill mybutton1 mb-3 " 
+                            style="background:orange; width: 30%; color: white;">
+
+                        </div>
+                    </div> 
+                </div>
+              </form> 
+            </section>
+
+    </main>
+    
+    <!-- Footer section -->
+    <footer class="myfooter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="navbar-brand" href="#"> <img src="img/logo3.png"  alt=""></a>
+                </div>
+                <div class="col-sm-3 mt-3 mb">
+                    <h1 class="heading2" style="color: #2BBCED;">Quick link</h1>
+                    <li class="mylist"><a href="index.html" class="mylink2">Home</a></li>
+                    <li class="mylist"><a href="gallery.html" class="mylink2">Gallery</a></li>
+                    <li class="mylist"><a href="" class="mylink2">Services</a></li>
+                    <li class="mylist"><a href="about.html" class="mylink2">About</a></li>
+                    <li class="mylist"><a href="contact.html" class="mylink2">Contact</a></li>
+                    <li class="mylist"><a href="shop.html" class="mylink2">Shop</a></li>
+                </div>
+                <div class="col-sm-3 mt-3 mb-3">
+                    <h1 class="heading2" style="color: #2BBCED;">Account</h1>
+                    <li class="mylist"><a href="login.html" class="mylink2">Login</a></li>
+                    <li class="mylist"><a href="register.html" class="mylink2">Sign up</a></li>
+                    <li class="mylist"><a href="#" class="mylink2">Shoping cart</a></li>
+                    <li class="mylist"><a href="#" class="mylink2">Get Quote</a></li>
+                </div>
+                <div class="col-sm-3 mt-3 mb-3">
+                    <h1 class="heading2" style="color: #2BBCED;">Blog</h1>
+                    <div class="row fblog">
+                        <div class="col-4"><img src="img/Group1.png" alt="blog image"></div>
+                        <div class="col-8"><h2 class="heading2" style="font-size: 20px;">
+                           <li class="mylist">
+                            <a href="#" class="mylink2">Top Reasons to Opt for photo editing Services</a>
+                           </li>
+                        </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                <div class="col-sm-6 mt-3">
+                    <h1 class="heading1" style="font-size:30px; color:orange ;">Contact Address</h1>
+                    <p class="p1" style="color:white; font-size: 15px;">
+                        ADDRESS: HOUSE 10/C, ROAD NO- 2, SHYAMOLI, MOHAMMADPUR
+                        DHAKA 1207, BANGLADESH
+                    <li class="text-white mylist"><i class="fa fa-envelope"></i>info@imagesolutionexpert.com</li>
+                    <li class="text-white mylist"><i class="fa fa-phone"> (+88) 01556359897</i></li>
+                    </p> 
+                    
+                </div>
+                <div class="col-sm-4 header__top__right__social mt-3">
+                    <h1 class="heading1" style="font-size:30px; color:orange;">Get in Touch</h1>
+                    <a href="#" class="mylink2 text-white" style="font-size:25px"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="mylink2 text-white" style="font-size:25px"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="mylink2 text-white" style="font-size:25px"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="mylink2 text-white" style="font-size:25px"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <p class="p1 p-3 text-center" style="border-top: 1px solid rgb(177, 177, 177); color: #2BBCED;"> 
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
+                    All rights reserved Produce by <b>imagesolutionexpert</b> 
+                </p>  
+            </div>
+        </div>
+    </footer>
+
+    <!-- JacaScript files Remote -->
+
+     <!-- Js Plugins -->
+     <script src="js/plugin/jquery-3.3.1.min.js"></script>
+     <script src="js/plugin/jquery.slicknav.js"></script>
+     <script src="js/plugin/mixitup.min.js"></script>
+     <script src="js/plugin/owl.carousel.min.js"></script>
+     <script src="js/plugin/main.js"></script>
+
+    <!-- JavaScript file Development -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <style>
+        .header{
+            height: 100px;
+            background:none;
+            box-shadow: none;
+            position: fixed;
+            top: 0;
+            right:0;
+            left: 0;
+            z-index: 9;
+            transition: background-color .5s ease;
+            /* transition: height .5s ease; */
+            /* z-index: 1000; */
+        }
+        .scrolling-active{
+            background:white;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 
+            0 9px 30px 0 
+            rgba(0, 0, 0, 0.1);
+            /* transform: background; */
+          }
+          .scrolling-active .shopbag{
+                color: black !important;
+          }
+          .scrolling-active .nav{
+                /* height: 6.6rem; */
+            }
+          /* .header__menu ul li a {
+            font-size: 15px;
+            color: #2BBCED;
+          } */
+          .shopbag{
+              color: white !important;
+          }
+    </style>
+    <script>
+        window.addEventListener('scroll', function () {
+    let header = document.querySelector('header');
+    let windowPosition = window.scrollY > 0;
+     header.classList.toggle('scrolling-active', windowPosition);
+  })
+    </script>
+</body>
+</html>
